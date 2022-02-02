@@ -23,7 +23,7 @@ async def share_text(client, message):
                 [
                     [
                         InlineKeyboardButton(
-                            "Support Chat", url=f"https://t.me/{SUPPORT_CHAT}")
+                            "Support Chat", url=f"https://t.me/OFF_CHATS")
                     ]                
                 ]
             ),
