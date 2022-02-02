@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# Copyright (C) @ZauteKm
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -24,10 +23,11 @@ BITLY_API = os.environ.get("BITLY_API", "8df1df8c23f719e5cf97788cc2d40321ea30092
 CUTTLY_API = os.environ.get("CUTTLY_API", "f64dffbde033b6c307387dd50b7c76e505f1c")
 SHORTCM_API = os.environ.get("SHORTCM_API", "pk_...NIZv")
 GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9007a7")
+URLSHORTX_API = os.environ.get("URLSHORTX_API","4b17f6a264b2bbe471bf6b71ae3cd28dfc36ae90")
 
 reply_markup = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text='join projects channel', url='https://telegram.me/josprojects')
+        InlineKeyboardButton(text='join my main channel', url='https://telegram.me/TEAM_SILENT_KING')
         ]]
     )
 
@@ -187,10 +187,22 @@ async def short(link):
                 shorten_urls += f"\n**GPLinks.in :-** {url}"
     except Exception as error:
         print(f"GPLink error :- {error}")
+
+#URLSHORTX
+  try:
+        api_url = "https://urlshortx.com//api"
+        params = {'api': URLSHORTX_API, 'url': link}
+        async with aiohttp.ClientSession() as session:
+            async with session.get(api_url, params=params, raise_for_status=True) as response:
+                data = await response.json()
+                url = data["shortenedUrl"]
+                shorten_urls += f"\n**urlshortx.com :-** {url}"
+    except Exception as error:
+        print(f"URLSHORTX error :- {error}")
     
     # Send the text
     try:
-        shorten_urls += "\n\nmade by @josprojects | @jospsupport 🔥"
+        shorten_urls += "\n\nmade by @TEAM_SILENT_KING | @ITS_NOT_ROMEO 🔥"
         return shorten_urls
     except Exception as error:
         return error
