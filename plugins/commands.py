@@ -23,11 +23,11 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('updates', url='https://t.me/josprojects')
+                InlineKeyboardButton('📍UPDATES📍', url='https://t.me/TEAM_SILENT_KING')
             ],
             [
-                InlineKeyboardButton('help', url=f"https://t.me/{temp.U_NAME}?start=help"),
-                InlineKeyboardButton('Close ✗', callback_data="close_data"),
+                InlineKeyboardButton('🔍HELP🔍', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('✗ Close ✗', callback_data="close_data"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -45,13 +45,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+            InlineKeyboardButton('👨🏻‍🦯HELP 👨🏻‍🦯 ', callback_data='help'),
+            InlineKeyboardButton(' ⚜️ABOUT ⚜️ ', callback_data='about')
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/TEAM_SILENT_KING'),
+            InlineKeyboardButton('📍 MOVIES HUB 📍', url='https://t.me/MOVIES_HUB_FOR_U')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -93,13 +93,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('Add me to your Chat', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('help', callback_data='help'),
-            InlineKeyboardButton('about', callback_data='about')
+           InlineKeyboardButton('👨🏻‍🦯HELP 👨🏻‍🦯 ', callback_data='help'),
+            InlineKeyboardButton(' ⚜️ABOUT ⚜️ ', callback_data='about')
             ],[
             InlineKeyboardButton('search here movie', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('updates', url='https://t.me/josprojects'),
-            InlineKeyboardButton('movie club', url='https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('⚡️ UPDATES ⚡️', url='https://t.me/TEAM_SILENT_KING'),
+            InlineKeyboardButton('📍 MOVIES HUB 📍', url='https://t.me/MOVIES_HUB_FOR_U')
             ],[
             InlineKeyboardButton('✗ Close the Menu ✗', callback_data='close_data')
         ]]
@@ -146,11 +146,11 @@ async def start(client, message):
                 f_caption = f"{title}"
             buttons = [
                 [
-                    InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-                    InlineKeyboardButton('channel', url='https://t.me/JosProjects')
+                    InlineKeyboardButton('👨🏻‍🦯SUPPORT', url='https://t.me/OFF_CHATS'),         
+                    InlineKeyboardButton('🔆UPDATES 🔆', url='https://t.me/TEAM_SILENT_KING')
                 ],
                 [
-                    InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+                    InlineKeyboardButton('Series & Movie Club', url=f'https://MOVIES_HUB_FOR_U')
                 ]
                 ]
             try:
@@ -260,11 +260,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('support', url='https://t.me/JOSPSupport'),
-            InlineKeyboardButton('channel', url='https://t.me/JosProjects')
-        ],
-        [
-            InlineKeyboardButton('Series & Movie Club', url=f'https://t.me/+y53tWFUw6Q43NzE9')
+            InlineKeyboardButton('👨🏻‍🦯SUPPORT', url='https://t.me/OFF_CHATS'),         
+                    InlineKeyboardButton('🔆UPDATES 🔆', url='https://t.me/TEAM_SILENT_KING')
+                ],
+                [
+                    InlineKeyboardButton('Series & Movie Club', url=f'https://MOVIES_HUB_FOR_U')
         ]
         ]
     await client.send_cached_media(
