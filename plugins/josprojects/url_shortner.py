@@ -22,8 +22,7 @@ from pyshorteners import Shortener
 BITLY_API = os.environ.get("BITLY_API", "8df1df8c23f719e5cf97788cc2d40321ea30092b")
 CUTTLY_API = os.environ.get("CUTTLY_API", "f64dffbde033b6c307387dd50b7c76e505f1c")
 SHORTCM_API = os.environ.get("SHORTCM_API", "pk_...NIZv")
-GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9007a7")
-URLSHORTX_API = os.environ.get("URLSHORTX_API","4b17f6a264b2bbe471bf6b71ae3cd28dfc36ae90")
+GPLINKS_API = os.environ.get("GPLINKS_API", "57a4b6c9b947e643ad54219cccb8b777f2823bfc")
 
 reply_markup = InlineKeyboardMarkup(
         [[
@@ -187,18 +186,6 @@ async def short(link):
                 shorten_urls += f"\n**GPLinks.in :-** {url}"
     except Exception as error:
         print(f"GPLink error :- {error}")
-
-#URLSHORTX
-  try
-        api_url = "https://urlshortx.com//api"
-        params = {'api': URLSHORTX_API, 'url': link}
-        async with aiohttp.ClientSession() as session:
-            async with session.get(api_url, params=params, raise_for_status=True) as response:
-                data = await response.json()
-                url = data["shortenedUrl"]
-                shorten_urls += f"\n**urlshortx.com :-** {url}"
-    except Exception as error:
-        print(f"URLSHORTX error :- {error}")
     
     # Send the text
     try:
