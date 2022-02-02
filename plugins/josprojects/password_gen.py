@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# Copyright (C) @ZauteKm
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -31,6 +30,6 @@ async def password(bot, update):
         text = "Sorry... Failed To Create Password, Because Limit is 1 to 100."
     else:
         random_value = "".join(random.sample(password, limit))
-        text = f"**Limit :-** `{str(limit)}`.\n**Password :-** `{random_value}`**\n\nJoin @JOSPSupport",
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('join projects channel', url='https://telegram.me/josprojects')]])
+        text = f"**Limit :-** `{str(limit)}`.\n**Password :-** `{random_value}`**\n\nJoin @OFF_CHATS",
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('🔰 MUST JOIN TO USE ME 🔰', url='https://telegram.me/TEAM_SILENT_KING')]])
     await message.edit_text(text, True)
