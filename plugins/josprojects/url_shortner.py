@@ -189,7 +189,7 @@ async def short(link):
         print(f"GPLink error :- {error}")
 
 #URLSHORTX
-  try:
+  try
         api_url = "https://urlshortx.com//api"
         params = {'api': URLSHORTX_API, 'url': link}
         async with aiohttp.ClientSession() as session:
