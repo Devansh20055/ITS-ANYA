@@ -39,7 +39,7 @@
 * `ADMINS`: (ADD MANUALY) :- ID OF BOT OWNER ANS SUDO USER (SOME FUNCTIONS MAY NOT WORK )
 ### Optional Variables
 * `IMDB`: Imdb, the view of information when making True/False.
-* `SINGLE_BUTTON`: choose b/w [single or double buttons](https://github.com/josprojects/tgmoviebot/issues/1) True/False.
+* `SINGLE_BUTTON`: choose b/w single or double buttons True/False.
 
 ## larger result buttons
 larger results will be better for reading.
