@@ -271,7 +271,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+/short https://t.me/PREMINUM_IS_BACK
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
