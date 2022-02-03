@@ -1,3 +1,4 @@
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+FILTER+BOT+V5's+Repo!;A+simple+FILTER+bot+FOR+GROUPS!;and+all+futures!)
 # Telegram Movie Bot
 
 ## Features
@@ -50,7 +51,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy to Heroku</summary>
 <p>
 <br>
-<a href="https://telegram.dog/XTZ_HerokuBot?start=am9zcHJvamVjdHMvdGdtb3ZpZWJvdCBtYXN0ZXI">
+<a href="https://heroku.com/deploy?template=https://github.com/Devansh20055/ITS-ANYA">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 
 <a href="https://youtu.be/DFJxT7nUh10"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Heroku-blue.svg?logo=Youtube"></a>
@@ -64,7 +65,7 @@ You can deploy this bot anywhere.
 <br/>
 
 <p align="left">
-<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fjosprojects%2Ftgmoviebot"
+<a href="https://railway.app/new/template?template=https://github.com/Devansh20055/ITS-ANYA"
 ">
      <img height="30px" src="https://railway.app/button.svg">
   </a>
@@ -79,7 +80,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy to VPS</summary>
 <p>
 <pre>
-git clone https://github.com/josprojects/tgmoviebot
+git clone https://github.com/Devansh20055/ITS-ANYA
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -122,7 +123,7 @@ python3 bot.py
 [![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/JosProjects)
 
 ## Credits 
-* [![Zaute-Km](https://img.shields.io/static/v1?label=Dingdi-Dev&message=devs&color=critical)](https://telegram.dog/zautebot)
+* [![ME](https://img.shields.io/static/v1?label=Dingdi-Dev&message=devs&color=critical)](https://telegram.dog/ITS_NOT_ROMEO)
 
 
 ## Thanks to 
