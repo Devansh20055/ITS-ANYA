@@ -1,5 +1,13 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+FILTER+BOT+V5's+Repo!;A+simple+FILTER+bot+FOR+GROUPS!;and+all+futures!)
-# Telegram Movie Bot
+<p align="center">
+  <img src="https://te.legra.ph/file/40fb481f9062166292f90.jpg" alt="TEAM_SILENT_KING">
+</p>
+<h1 align="center">
+<Hr color="YELLOW"></HR>
+  <b>FILTER BOT V 6</b><BR>
+
+<P ALIGN="CENTER">
+<a href= "https://t.me/team_silent_king">🔰JOIN MY TEAM ON TELEGRAM NOW !!!!! 🔰 </a> </H1> </P>
 
 ## Features
 
