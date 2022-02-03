@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+FILTER+BOT+V5's+Repo!;A+simple+FILTER+bot+FOR+GROUPS!;and+all+futures!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=welcome+To+FILTER+BOT+V6's+Repo!;A+simple+FILTER+bot+FOR+GROUPS!;and+all+futures!)
 <p align="center">
   <img src="https://te.legra.ph/file/40fb481f9062166292f90.jpg" alt="TEAM_SILENT_KING">
 </p>
