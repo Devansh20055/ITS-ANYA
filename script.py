@@ -115,7 +115,7 @@ Paste some texts or documents on a website!
 • /paste [reply] - paste the replied text on Pasty
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• I should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -127,7 +127,7 @@ Do as you wish with telegra.ph module!
 • /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• I should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
@@ -331,7 +331,7 @@ a bot to create a link to share text in the telegram.
 • /share (text or reply to message)
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
+• I should have admin privillage.
 • These commands works on both pm and group.
 • These commands can be used by any group member."""
 
