@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/josprojects/tgmoviebot",
-    "repository": "https://github.com/josprojects/tgmoviebot",
+    "repository": "https://github.com/Devansh20055/ITS-ANYA",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
